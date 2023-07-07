@@ -4,7 +4,7 @@ import PackageDescription
 
 let package = Package(
     name: "VigramSDK",
-    platforms: [.macOS(.v10_15), .iOS(.v13)],
+    platforms: [.macOS(.v10_15), .iOS(.v14)],
     products: [
         .library(
             name: "VigramSDK",

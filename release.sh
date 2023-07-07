@@ -10,8 +10,8 @@ fi
 
 echo "--- PREPARATION ---"
 
-TAG="$1"
-NAME="Vigram"
+TAG="0.5.3-beta4.5.4"
+NAME="VigramSDK"
 
 echo "--- PODSPEC CREATION ---"
 
@@ -35,7 +35,7 @@ Pod::Spec.new do |s|
 
     s.platform = :ios
     s.swift_version = '5.5'
-    s.ios.deployment_target  = '13.0'
+    s.ios.deployment_target  = '15.5'
     s.default_subspec = 'Core'
 
     s.subspec 'Core' do |ss|
