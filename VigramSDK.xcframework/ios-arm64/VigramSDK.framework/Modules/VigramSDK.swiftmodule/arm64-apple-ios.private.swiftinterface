@@ -281,6 +281,7 @@ public protocol PeripheralLogger : AnyObject {
   func log(nmea message: any VigramSDK.NMEAMessage)
   func log(device message: VigramSDK.DeviceMessage)
   func log(satellite message: VigramSDK.SatelliteMessage)
+  func log(other message: Swift.String)
 }
 public struct NtripConnectionInformation : Swift.Hashable {
   public var hostname: Swift.String
@@ -441,6 +442,7 @@ public struct DMMCoordinate {
   }
 }
 public enum Configuration {
+  public static let sdkVersion: Swift.String
   public static var forceUpdate: Swift.Bool
   public static var debug: Swift.Bool
   public static var serviceIdentifiers: [CoreBluetooth.CBUUID]?
@@ -682,6 +684,9 @@ extension VigramSDK.EnvironmentData : VigramSDK.AverageComputable {
   public static func average(of values: [VigramSDK.EnvironmentData]) -> VigramSDK.EnvironmentData
 }
 public protocol NtripTask {
+  var host: Swift.String? { get }
+  var port: Swift.Int? { get }
+  var mountPoint: Swift.String? { get }
   var data: VigramSDK.StatePublisher<Swift.Result<Foundation.Data, any Swift.Error>> { get }
   func resume() -> VigramSDK.SingleEventPublisher<Swift.Void>
   func disconnect()
@@ -715,6 +720,7 @@ public protocol Peripheral {
   var isNeedSoftwareUpdate: VigramSDK.StatePublisher<Swift.Bool>? { get }
   var softwareUpdateState: VigramSDK.StatePublisher<VigramSDK.StateUpdateSoftware>? { get }
   var softwareUpdateProgress: VigramSDK.StatePublisher<Swift.Double>? { get }
+  var logger: (any VigramSDK.PeripheralLogger)? { get }
   var state: VigramSDK.StatePublisher<CoreBluetooth.CBPeripheralState> { get }
   var peripheral: CoreBluetooth.CBPeripheral { get }
   var configurationState: VigramSDK.StatePublisher<VigramSDK.StatePeripheralConfiguration> { get }
