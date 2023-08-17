@@ -713,6 +713,7 @@ extension VigramSDK.NtripTaskError : Foundation.LocalizedError {
 }
 public protocol Peripheral {
   var nmea: VigramSDK.StatePublisher<any VigramSDK.NMEAMessage> { get }
+  var serialNumber: Swift.String? { get }
   var deviceMessages: VigramSDK.StatePublisher<VigramSDK.DeviceMessage> { get }
   var satelliteMessages: VigramSDK.StatePublisher<VigramSDK.SatelliteMessage> { get }
   var debug: VigramSDK.StatePublisher<Swift.String> { get }

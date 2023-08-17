@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = 'Vigram'
-s.version      = '0.5.3-beta4.6'
+s.version      = '0.5.3-beta4.6.1'
 s.summary      = 'VigramSDK allows the seamless communication with the Vigram module.'
 s.description  = <<-DESC
 VigramSDK connects to the Vigram module, forwards Ntrip correction data to it and 
