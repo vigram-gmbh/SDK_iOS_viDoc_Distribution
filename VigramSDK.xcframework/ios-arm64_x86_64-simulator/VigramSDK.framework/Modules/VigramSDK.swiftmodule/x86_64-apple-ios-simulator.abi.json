@@ -39857,147 +39857,147 @@
     {
       "filePath": "\/Users\/sablin_lex\/Developer\/Vigram\/SDK\/Github\/SDK\/main\/SDK_iOS_viDoc\/VigramSDK\/Source\/Parsing\/DeviceParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 3244,
+      "offset": 3264,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sablin_lex\/Developer\/Vigram\/SDK\/Github\/SDK\/main\/SDK_iOS_viDoc\/VigramSDK\/Source\/Parsing\/DeviceParser.swift",
       "kind": "StringLiteral",
-      "offset": 3642,
+      "offset": 3662,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sablin_lex\/Developer\/Vigram\/SDK\/Github\/SDK\/main\/SDK_iOS_viDoc\/VigramSDK\/Source\/Parsing\/DeviceParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 3720,
+      "offset": 3740,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sablin_lex\/Developer\/Vigram\/SDK\/Github\/SDK\/main\/SDK_iOS_viDoc\/VigramSDK\/Source\/Parsing\/DeviceParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 4391,
+      "offset": 4411,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sablin_lex\/Developer\/Vigram\/SDK\/Github\/SDK\/main\/SDK_iOS_viDoc\/VigramSDK\/Source\/Parsing\/DeviceParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 4444,
+      "offset": 4464,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/sablin_lex\/Developer\/Vigram\/SDK\/Github\/SDK\/main\/SDK_iOS_viDoc\/VigramSDK\/Source\/Parsing\/DeviceParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 4509,
+      "offset": 4529,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/sablin_lex\/Developer\/Vigram\/SDK\/Github\/SDK\/main\/SDK_iOS_viDoc\/VigramSDK\/Source\/Parsing\/DeviceParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 4515,
+      "offset": 4535,
       "length": 5,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/sablin_lex\/Developer\/Vigram\/SDK\/Github\/SDK\/main\/SDK_iOS_viDoc\/VigramSDK\/Source\/Parsing\/DeviceParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 4575,
+      "offset": 4595,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Users\/sablin_lex\/Developer\/Vigram\/SDK\/Github\/SDK\/main\/SDK_iOS_viDoc\/VigramSDK\/Source\/Parsing\/DeviceParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 5004,
+      "offset": 5024,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sablin_lex\/Developer\/Vigram\/SDK\/Github\/SDK\/main\/SDK_iOS_viDoc\/VigramSDK\/Source\/Parsing\/DeviceParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 5023,
+      "offset": 5043,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sablin_lex\/Developer\/Vigram\/SDK\/Github\/SDK\/main\/SDK_iOS_viDoc\/VigramSDK\/Source\/Parsing\/DeviceParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 5080,
+      "offset": 5100,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sablin_lex\/Developer\/Vigram\/SDK\/Github\/SDK\/main\/SDK_iOS_viDoc\/VigramSDK\/Source\/Parsing\/DeviceParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 5140,
+      "offset": 5160,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sablin_lex\/Developer\/Vigram\/SDK\/Github\/SDK\/main\/SDK_iOS_viDoc\/VigramSDK\/Source\/Parsing\/DeviceParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 5719,
+      "offset": 5739,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sablin_lex\/Developer\/Vigram\/SDK\/Github\/SDK\/main\/SDK_iOS_viDoc\/VigramSDK\/Source\/Parsing\/DeviceParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 5794,
+      "offset": 5814,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sablin_lex\/Developer\/Vigram\/SDK\/Github\/SDK\/main\/SDK_iOS_viDoc\/VigramSDK\/Source\/Parsing\/DeviceParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 5869,
+      "offset": 5889,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/sablin_lex\/Developer\/Vigram\/SDK\/Github\/SDK\/main\/SDK_iOS_viDoc\/VigramSDK\/Source\/Parsing\/DeviceParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 5944,
+      "offset": 5964,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/sablin_lex\/Developer\/Vigram\/SDK\/Github\/SDK\/main\/SDK_iOS_viDoc\/VigramSDK\/Source\/Parsing\/DeviceParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 6070,
+      "offset": 6090,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/sablin_lex\/Developer\/Vigram\/SDK\/Github\/SDK\/main\/SDK_iOS_viDoc\/VigramSDK\/Source\/Parsing\/DeviceParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 6145,
+      "offset": 6165,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/sablin_lex\/Developer\/Vigram\/SDK\/Github\/SDK\/main\/SDK_iOS_viDoc\/VigramSDK\/Source\/Parsing\/DeviceParser.swift",
       "kind": "StringLiteral",
-      "offset": 6957,
+      "offset": 6977,
       "length": 59,
       "value": "\"Checking the checksum of an empty message is unsupported.\""
     },
     {
       "filePath": "\/Users\/sablin_lex\/Developer\/Vigram\/SDK\/Github\/SDK\/main\/SDK_iOS_viDoc\/VigramSDK\/Source\/Parsing\/DeviceParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 7037,
+      "offset": 7057,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sablin_lex\/Developer\/Vigram\/SDK\/Github\/SDK\/main\/SDK_iOS_viDoc\/VigramSDK\/Source\/Parsing\/DeviceParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 7099,
+      "offset": 7119,
       "length": 1,
       "value": "0"
     },
