@@ -99,7 +99,8 @@ public protocol EnvironmentDataService {
 public protocol Peripheral {
   var nmea: VigramSDK.StatePublisher<any VigramSDK.NMEAMessage> { get }
   var serialNumber: Swift.String? { get }
-  var isNewProtocol: Swift.Bool { get }
+  var isNewProtocol: VigramSDK.StatePublisher<Swift.Bool> { get }
+  var currentDevice: VigramSDK.StatePublisher<VigramSDK.DeviceVersion> { get }
   var deviceMessages: VigramSDK.StatePublisher<VigramSDK.DeviceMessage> { get }
   var satelliteMessages: VigramSDK.StatePublisher<VigramSDK.SatelliteMessage> { get }
   var debug: VigramSDK.StatePublisher<Swift.String> { get }
@@ -120,6 +121,8 @@ public protocol Peripheral {
   func resetViDoc()
   func requestVersion() -> VigramSDK.SingleEventPublisher<VigramSDK.DeviceMessage.Version>
   func requestBattery() -> VigramSDK.SingleEventPublisher<VigramSDK.DeviceMessage.Battery>
+  func requestGetCurrentDevice() -> VigramSDK.SingleEventPublisher<VigramSDK.DeviceMessage.DeviceNumber>
+  func requestWriteDevice(number: Swift.String) -> VigramSDK.SingleEventPublisher<Swift.Void>
   func getCurrentStatusGNSS(satellite: VigramSDK.NavigationSystemType) -> VigramSDK.SingleEventPublisher<VigramSDK.SatelliteMessage.StatusSattelite>
   func changeStatusGNSS(satellite: VigramSDK.NavigationSystemType, activate: Swift.Bool) -> VigramSDK.SingleEventPublisher<VigramSDK.SatelliteMessage.Acknowledge>
   func activateAllConstellationGNSS() -> VigramSDK.SingleEventPublisher<VigramSDK.SatelliteMessage.Acknowledge>
@@ -150,6 +153,7 @@ public enum PeripheralError : Swift.Error {
   case writeTimeOut
   case configurationFailed
   case requestIsNotSupported(Swift.String)
+  case accessDenied(Swift.String)
 }
 extension VigramSDK.PeripheralError : Foundation.LocalizedError {
   public var errorDescription: Swift.String? {
@@ -585,25 +589,49 @@ public enum StatePeripheralConfiguration {
   case inProgress
   case failed(any Swift.Error)
 }
+public enum DeviceVersion {
+  case viDoc
+  case viDocLight
+  case unknown
+  public static func == (a: VigramSDK.DeviceVersion, b: VigramSDK.DeviceVersion) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 public enum DeviceMessage {
   case battery(VigramSDK.DeviceMessage.Battery)
   case version(VigramSDK.DeviceMessage.Version)
+  case deviceNumber(VigramSDK.DeviceMessage.DeviceNumber)
   case laserState(VigramSDK.DeviceMessage.LaserState)
   case measurement(VigramSDK.DeviceMessage.Measurement)
+}
+public enum DeviceType {
+  case newDevice
+  case oldDevice
+  public static func == (a: VigramSDK.DeviceType, b: VigramSDK.DeviceType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
 }
 extension VigramSDK.DeviceMessage {
   public struct Version {
     public let software: VigramSDK.DeviceMessage.Version.Software
     public let hardware: VigramSDK.DeviceMessage.Version.Hardware
   }
+  public struct DeviceNumber {
+    public let typeOfDevice: VigramSDK.DeviceVersion
+  }
+  public struct IMUAngle {
+    public let nickAngle: Swift.Double
+    public let rollAngle: Swift.Double
+  }
   public struct Measurement {
     public let start: Swift.UInt16
     public let end: Swift.UInt16
     public let distance: Swift.Double
     public let quality: Swift.UInt16
-  }
-  public struct Battery {
-    public let percentage: Swift.Int
   }
   public enum LaserState {
     case bothOff
@@ -614,6 +642,9 @@ extension VigramSDK.DeviceMessage {
     public var hashValue: Swift.Int {
       get
     }
+  }
+  public struct Battery {
+    public let percentage: Swift.Int
   }
   public enum Baudrate {
     case standart
@@ -643,15 +674,6 @@ extension VigramSDK.DeviceMessage.Version.Hardware {
 }
 extension VigramSDK.DeviceMessage.Version.Software {
   public func toString() -> Swift.String
-}
-public enum DeviceType {
-  case newDevice
-  case oldDevice
-  public static func == (a: VigramSDK.DeviceType, b: VigramSDK.DeviceType) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
 }
 public struct SinglePoint {
   public var environmentData: VigramSDK.EnvironmentData
@@ -1042,12 +1064,14 @@ extension VigramSDK.DynamicStateType : Swift.RawRepresentable {}
 extension VigramSDK.GPSQualityIndicator : Swift.Equatable {}
 extension VigramSDK.GPSQualityIndicator : Swift.Hashable {}
 extension VigramSDK.GPSQualityIndicator : Swift.RawRepresentable {}
+extension VigramSDK.DeviceVersion : Swift.Equatable {}
+extension VigramSDK.DeviceVersion : Swift.Hashable {}
+extension VigramSDK.DeviceType : Swift.Equatable {}
+extension VigramSDK.DeviceType : Swift.Hashable {}
 extension VigramSDK.DeviceMessage.LaserState : Swift.Equatable {}
 extension VigramSDK.DeviceMessage.LaserState : Swift.Hashable {}
 extension VigramSDK.DeviceMessage.Baudrate : Swift.Equatable {}
 extension VigramSDK.DeviceMessage.Baudrate : Swift.Hashable {}
-extension VigramSDK.DeviceType : Swift.Equatable {}
-extension VigramSDK.DeviceType : Swift.Hashable {}
 extension VigramSDK.NtripMountPoint.Authentication : Swift.Equatable {}
 extension VigramSDK.NtripMountPoint.Authentication : Swift.Hashable {}
 extension VigramSDK.NtripMountPoint.Authentication : Swift.RawRepresentable {}
