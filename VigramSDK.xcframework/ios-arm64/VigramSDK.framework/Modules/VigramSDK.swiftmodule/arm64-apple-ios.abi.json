@@ -39810,14 +39810,14 @@
       "kind": "IntegerLiteral",
       "offset": 603,
       "length": 4,
-      "value": "0x03"
+      "value": "0x01"
     },
     {
       "filePath": "\/Users\/sablin_lex\/Developer\/Vigram\/SDK\/Github\/SDK\/main\/SDK_iOS_viDoc\/VigramSDK\/Source\/Parsing\/DeviceParser.swift",
       "kind": "IntegerLiteral",
       "offset": 659,
       "length": 4,
-      "value": "0x01"
+      "value": "0x03"
     },
     {
       "filePath": "\/Users\/sablin_lex\/Developer\/Vigram\/SDK\/Github\/SDK\/main\/SDK_iOS_viDoc\/VigramSDK\/Source\/Parsing\/DeviceParser.swift",
