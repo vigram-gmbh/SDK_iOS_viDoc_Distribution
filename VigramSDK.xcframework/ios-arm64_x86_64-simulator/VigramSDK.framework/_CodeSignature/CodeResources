@@ -10,47 +10,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		BcnN8IStaD2E6SMRTdK3KgKM86c=
+		5Li8zVDfEkdXe2YfWUdHc+Z4orU=
 		</data>
 		<key>Modules/VigramSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		EJ8LRQ17dVn5658+Hv9ud/rs8oY=
+		s38w1vtM1qWJqxQ7dkv/K/F7/oU=
 		</data>
 		<key>Modules/VigramSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		AWzg5A1uXVSqF2A0GhsijVAQYvs=
+		1e+728Raq+Poe13O7L8Xq01krdM=
 		</data>
 		<key>Modules/VigramSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		2ixA5Se4FVm5Kp9NMVhLxWH1TXs=
+		c1zqVaIMf1MpxKFS4IlMfsVsVuA=
 		</data>
 		<key>Modules/VigramSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		AWzg5A1uXVSqF2A0GhsijVAQYvs=
+		1e+728Raq+Poe13O7L8Xq01krdM=
 		</data>
 		<key>Modules/VigramSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		SUm+0Z+GVG4x2wMMLgLX2+xZ7Mo=
+		olvHp5FnWp4PDijbGDv8rL6JO6Q=
 		</data>
 		<key>Modules/VigramSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		EJ8LRQ17dVn5658+Hv9ud/rs8oY=
+		s38w1vtM1qWJqxQ7dkv/K/F7/oU=
 		</data>
 		<key>Modules/VigramSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		GAXQiXG8RB9Ni0rpHYH3SXRirVs=
+		MaOGgK1tHVUFf4xaChf+9+RPPXQ=
 		</data>
 		<key>Modules/VigramSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		9EEUugymGTh6crZ+WQlfP3MXfXg=
+		dFjSszvRh5bTbLP03Saxxqcmjvc=
 		</data>
 		<key>Modules/VigramSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		GAXQiXG8RB9Ni0rpHYH3SXRirVs=
+		MaOGgK1tHVUFf4xaChf+9+RPPXQ=
 		</data>
 		<key>Modules/VigramSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		0Ccww8VtsK2DCh12bpRvlD6EIgk=
+		devl0iWAef93O2kP6Xb/UMmaQsM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -90,70 +90,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JLVEghrXM4ayyu9aiuqCZ02cwB8wMFLGRmGtXWR54W8=
+			Pgeu1SMvkPlXIK3tEdZgphaimsq7z7JhKVbUO7xTtb4=
 			</data>
 		</dict>
 		<key>Modules/VigramSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			J8INjZ6hI0IRSTe4TDsnu4T8Rsr2FZ1bZY0MdVeagrs=
+			Dvv+p5jIjIR7KpVShTfPXKs0zPe53VvGJN/4xbsOfOM=
 			</data>
 		</dict>
 		<key>Modules/VigramSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iRQzfOcRn1Qv5FVD0kaGXMhoCGt/fksUfi04RukENoY=
+			5UOsd/bKZ+vXhok1xqyNG6z/rAACSwABC54jYiXmxYo=
 			</data>
 		</dict>
 		<key>Modules/VigramSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			J8INjZ6hI0IRSTe4TDsnu4T8Rsr2FZ1bZY0MdVeagrs=
+			Dvv+p5jIjIR7KpVShTfPXKs0zPe53VvGJN/4xbsOfOM=
 			</data>
 		</dict>
 		<key>Modules/VigramSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			g4/k63x4L9mEKHx4poRXQ93X/cgxjFBUYYG0ALt98JY=
+			JzJenmGPIxBzJ8PcnliPfchQ5u8aputqkwlUR2x3SQ4=
 			</data>
 		</dict>
 		<key>Modules/VigramSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JLVEghrXM4ayyu9aiuqCZ02cwB8wMFLGRmGtXWR54W8=
+			Pgeu1SMvkPlXIK3tEdZgphaimsq7z7JhKVbUO7xTtb4=
 			</data>
 		</dict>
 		<key>Modules/VigramSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jLeBo1AvqdFXnBuS7Fh4y2jCXFmhMYK54BXv2lHUxoU=
+			kUIepep51OnvZZUoObxu1OfctSnuN8oKExR0cO4+loM=
 			</data>
 		</dict>
 		<key>Modules/VigramSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+9vliXH0Ze42dD6KhgBXGRIuVLtQOfhzAVNuvD9tQ60=
+			PARTyjSoTcGjpv/bPC/D0DSCaklPierBvbYlbdjMbUM=
 			</data>
 		</dict>
 		<key>Modules/VigramSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jLeBo1AvqdFXnBuS7Fh4y2jCXFmhMYK54BXv2lHUxoU=
+			kUIepep51OnvZZUoObxu1OfctSnuN8oKExR0cO4+loM=
 			</data>
 		</dict>
 		<key>Modules/VigramSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QpGCOxkq77PezEOvosltgvPaxuH1zZw75u8QRqi1vtU=
+			iuNhBLu2nwM6xRZwCUZUZLEZX0heYPm/xZtDe2pRMIQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
